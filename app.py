@@ -56,7 +56,7 @@ def get_text_chunk(text):
     chunk_text= text_spliter.split_text(text)
     return chunk_text
 
-key= "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"
+key= ""
 
 def get_vectorstore(chunktext_arrays):
     embeddings= OpenAIEmbeddings(openai_api_key=key)
