@@ -1,0 +1,21 @@
+css = '''
+.chat-message .message:
+{
+width:85%;
+padding:5;
+color:#fff
+}
+'''
+
+bot_template='''
+<div class="chat-message bot">
+    <div class="message">{{MSG}}</div>
+</div>
+
+'''
+user_template='''
+<div class="chat-message user">
+    <div class="message">{{MSG}}</div>
+</div>
+
+'''
